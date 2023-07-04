@@ -39,7 +39,7 @@ git init
 
 * modified: Archivos que se encuentran en el repositorio (estan siendo seguidos por GIT) pero difieren con lo que se encuentra en el area de trabajo WD
 
-* stateg: Archivos que estan en el area temporal intermedia
+* staged: Archivos que estan en el area temporal intermedia
 
 
 
@@ -48,3 +48,30 @@ git init
 ´´sh
 git status
 ´´
+
+## Para confirmar los cambios de un archivo (WD => SA)
+
+´´´sh
+git add <nombre del archivo>
+git add README.MD   (ejemplo)
+git add readme.md css.estilos.css  (si quiero agregar varios)
+git add .     (con el punto . o el asterisco *  agrego todos los archivos que estan untracked, modified al SA.´)
+´´´´
+
+
+## Para hacer un commit (sacar la foto) (SA => LR)
+
+´´´sh
+git commit -m "Mensaje explicando que guarde en esa foto"
+git commin -m "Agrego el readme.md"  (ejemplo)
+´´´´
+
+## Para ver las fotos (commits) que estan dentro del Local Repo
+ ´´´sh
+git log 
+git lo --oneline      (menos info que el git log)
+
+ ´´´´
+
+
+
