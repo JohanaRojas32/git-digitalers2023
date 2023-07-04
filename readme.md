@@ -67,10 +67,19 @@ git commin -m "Agrego el readme.md"  (ejemplo)
 ´´´´
 
 ## Para ver las fotos (commits) que estan dentro del Local Repo
+NOTA: SI SE ME BLOQUEA LA CONSOLA TENGO QUE PRESIONAR LA TECLA q (quit)
+
  ´´´sh
 git log 
 git lo --oneline      (menos info que el git log)
 
+ ´´´´
+
+ ## Si quiero ver los cambios entre el WD y el LP
+NOTA: SI SE ME BLOQUEA LA CONSOLA TENGO QUE PRESIONAR LA TECLA q (quit)
+
+ ´´´sh
+ git diff
  ´´´´
 
 
