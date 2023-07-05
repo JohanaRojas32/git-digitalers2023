@@ -80,7 +80,22 @@ NOTA: SI SE ME BLOQUEA LA CONSOLA TENGO QUE PRESIONAR LA TECLA q (quit)
 
  ´´´sh
  git diff
+ ´´´
+
+
+ ## Subir repositorio local al repositorio remoto
+
+ # Cramos un repositorio remoto en Github
+
+ ´´´sh
+ Ponemos nombre del archivo y lo dejamos publico. ahi lo creamos.
+
+ Despues copiamos el primer link que me da Github(del medio) y en GIT copiamos el link asi como esta, le damos enter. 
+(!esto es para vincular mi repo local con el remoto, esta genereando la ruta que los vincula)
+
+Despues hacemos lo mismo con el ultim link que me da Github(del medio) y lo volvemos a pegar en el GIT, damos enter. 
+(Esto lo que hace es darle un alias =< dice add "origin" y una ruta... el nombre origin es el nombre de la ruta asi cada vez que necesitamos nombrarla no estamos copiando toda la ruta>)
+
  ´´´´
 
-
-
+ 
