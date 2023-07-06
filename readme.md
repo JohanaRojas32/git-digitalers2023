@@ -112,6 +112,32 @@ git push
 ´´´´
 
 
+## Trabajando con ramas
+
+...
+
+## Crear una rama 
+´´´´sh
+git branch <nombre-rama>
+git branch info-rama
+´´
+
+## Si quiero ver las ramas que tengo 
+
+´´´sh
+git branch
+´´
+
+### Como cambiarnos de rama 
+
+´´´sh
+git switch <nombre-rama>
+git switch info-branches
+´´´´
+
+
+
+
 
 
 
