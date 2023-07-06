@@ -104,7 +104,14 @@ Despues hacemos lo mismo con el ultim link que me da Github(del medio) y lo volv
 git push -u origin main      
 
 (aca le estoy diciendo que suba lo de main al origin)
+Ese "-u" lo que hace es que vincula automaticamente el origin con el main (el local con el remoto), entonces la proxima vez no necesitas aclarar, solo basta con poner:
+
+
+git push
+ 
 ´´´´
+
+
 
 
 
