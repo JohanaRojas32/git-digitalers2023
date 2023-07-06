@@ -98,4 +98,13 @@ Despues hacemos lo mismo con el ultim link que me da Github(del medio) y lo volv
 
  ´´´´
 
- 
+ ## pARA SUBIR EL local al remoto (subir la copia del local al remoto) tengo que hacer lo siguiente:
+
+´´´sh
+git push -u origin main      
+
+(aca le estoy diciendo que suba lo de main al origin)
+´´´´
+
+
+
