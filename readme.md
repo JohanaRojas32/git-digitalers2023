@@ -136,6 +136,23 @@ git switch info-branches
 ´´´´
 
 
+## MERGE
+
+
+## Como fusiono ramas, o sea junto ramas
+**IMPORTANTE: Tengo que estar en la rama destino. si quiero traer de info branches a main, tengo que estar parado en main y de ahi ejecutar el siguiente comando:
+
+
+´´´sh
+git merge <nombre-rama>
+git merge info branches
+´´´´
+
+## TIPOS DE MERGE
+
+* Fast-forward
+* Recursiva
+* Manual
 
 
 
