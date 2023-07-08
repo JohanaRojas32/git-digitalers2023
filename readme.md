@@ -150,8 +150,8 @@ git merge info branches
 
 ## TIPOS DE MERGE
 
-* Fast-forward
-* Recursiva
+* Fast-forward : Es el mejor de los mundos, git se va a encargar de solucionar toda la fusion. No es necesario que intervenga el desarrollador.
+* Recursiva: 
 * Manual
 
 
