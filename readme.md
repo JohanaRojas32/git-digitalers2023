@@ -151,8 +151,17 @@ git merge info branches
 ## TIPOS DE MERGE
 
 * Fast-forward : Es el mejor de los mundos, git se va a encargar de solucionar toda la fusion. No es necesario que intervenga el desarrollador.
-* Recursiva: 
-* Manual
+* Recursiva: Es un algoritmo que suele solucionar el conflicto. Une automaticamente las ramas
+* Manual (conflicto) : ocurre cuando hay modificaciones en las mismaas lineas del archivo. 
+
+
+## Cambiar el nombre de la rama
+
+´´ sh
+git branch -m <nombre-rama-actual> <nombre-rama-nueva>
+´´´´
+
+
 
 
 
