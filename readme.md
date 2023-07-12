@@ -145,7 +145,7 @@ git switch info-branches
 
 ´´´sh
 git merge <nombre-rama>
-git merge info branches
+git merge info branches 
 ´´´´
 
 ## TIPOS DE MERGE
@@ -160,6 +160,23 @@ git merge info branches
 ´´ sh
 git branch -m <nombre-rama-actual> <nombre-rama-nueva>
 ´´´´
+
+
+## Si los archivos estan siendo trackeados puedo hacer un commit directamente sin pasar por el comando git add
+
+´´´sh
+git commit -am "mensaje del commit"
+´´´´
+!no puede haber archivos untracked. siempre es para archivos modified.
+
+
+## Para corregir un commit si me equivoque con el mensaje o me falto colocar un archivo o me olvide de guardar un archivo
+
+´´´sh
+git commit --amend -m "mensaje del commit"
+
+´´´´
+!!IMPORTANTE: ESTO SIEMPRE SE HACE SOBRE EL ULTIMO COMMIT!!
 
 
 
